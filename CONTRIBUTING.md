@@ -43,3 +43,9 @@ Do not open public issues for security vulnerabilities. Instead, email security 
 
 Feel free to open an issue or discussion for questions about the project.
 
+# Note
+
+No matter how you code or write — by hand or with AI — your contribution matters.
+This project welcomes all creators.
+We need contributors like you!
+
